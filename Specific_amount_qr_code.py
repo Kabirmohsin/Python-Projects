@@ -2,8 +2,6 @@
 !pip install pillow
 
 import qrcode
-#Create QR Code For UPI with sapcific Amount
-
 upi_id=input("Enter UPI ID: ")
 name=input("Enter Name: ")
 amount=int(input("Enter Amount: "))
