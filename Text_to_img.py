@@ -1,6 +1,4 @@
 !pip install pillow
-
-#Text to Image    >>>(Image, ImageDraw, ImageFont)
 from PIL import Image, ImageDraw, ImageFont
 txt=input("Enter Your Text: ")
 image=Image.new("RGB", (800,300), "white")
